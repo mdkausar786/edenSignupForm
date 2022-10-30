@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+    text-align: center;
+    /* height: 100vh; */
+    align-content: center;
 }
 
 .App-logo {
@@ -23,10 +25,94 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.f-container{
+     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    text-align: left;
+}
+.butn{
+  margin-top: 28px;
+}
+.btn-primary {
+  /* --bs-btn-color: #fff; */
+  --bs-btn-bg: #7829f7;
+}
+
+.displayin{
+  margin-top: 8px;
+}
+
+.active {
+  background-color: teal;
+  color: white;
+}
+
+
+
+
+.progressbar {
+  width: 400px;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
 
 .App-link {
   color: #61dafb;
 }
+
+
+.logo{
+  margin-bottom: 4rem
+}
+
+.card{
+  width: 10rem;
+  height: 11rem;
+}
+
+.user{
+  width: 49px;
+  height: 35px;
+}
+
+.ugroup{
+  width: 49px;
+    height: 37px;
+}
+
+.card-text{
+  font-size: 14px;
+
+}
+
+.finalpage-H1{
+  font-size: 35px;
+}
+
+.finalpage-P{
+  font-size: 14px;
+}
+
+.finalT{
+  
+    color:white;
+    width: 45px;
+    height: 45px;
+    font-size: 12px;
+    background-color:  #225dff;
+    
+    border-radius: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
 
 @keyframes App-logo-spin {
   from {

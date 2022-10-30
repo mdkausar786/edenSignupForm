@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
 
+import Form from './component/Form';
+
 function App() {
+  // const setArr = [Firstpage,SecondPage];
+
+  // const nextButton = () => {
+  //   console.log('click');
+
+  //   if (index < 3) {
+  //     setIndex(prevIndex => prevIndex + 1);
+  //     // <SecondPage/>
+
+  //   }
+  // }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+       {/* <Container className="h-100">
+        <Row className="m-5">
+          <Col className="align-self-center">  
+       */}
+        <Form />
+
+          {/* </Col>
+        </Row>
+        </Container>  */}
+      </div>
+      );
 }
 
-export default App;
+      export default App;
